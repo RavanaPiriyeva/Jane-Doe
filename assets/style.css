@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+#page-left-part {
+  width: 35%;
+  box-shadow: -4px 5px 11px 0px #bebebe;
+  background-color: white;
+}
+#page-left-part .img {
+  width: 100%;
+  position: relative;
+}
+#page-left-part .img h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+#page-left-part #bio img {
+  max-width: 100%;
+}
+#page-left-part #bio h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+#page-left-part #bio .bio-text {
+  margin: 10px;
+  padding: 20px;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+#page-left-part #bio ul {
+  list-style: none;
+}
+#page-left-part #bio li {
+  padding: 10px 0;
+  color: gray;
+}
+#page-left-part #bio i {
+  color: #369688;
+  padding-right: 20px;
+}
+
+/*------------------------------------------------------------------*/
+
+#page-left-part #skills {
+  padding: 30px;
+}
+#page-left-part #skills .skills-body {
+}
+
+#page-left-part #skills .skills-body i,
+#page-left-part #language .language-body i {
+  font-weight: bold;
+  color: #369688;
+  padding-right: 10px;
+}
+#page-left-part #skills .skills-body h3,
+#page-left-part #language .language-body h3 {
+  color: gray;
+}
+#page-left-part #skills .skills-body ul,
+#page-left-part #language .language-body ul {
+  list-style: none;
+  padding: 15px 0;
+}
+#page-left-part #skills .skills-body li,
+#page-left-part #language .language-body li {
+  padding: 10px 0;
+}
+#page-left-part #skills .skills-body li p,
+#page-left-part #language .language-body li p {
+  color: gray;
+  letter-spacing: 1px;
+}
+#page-left-part #skills .skills-body li span,
+#page-left-part #language .language-body li span {
+  display: inline-block;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin: 15px 0;
+  height: 18px;
+  position: relative;
+}
+#page-left-part #skills .skills-body .adobe span::after {
+  content: "90%";
+  height: 18px;
+  width: 90%;
+  background-color: #369688;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50px;
+}
+#page-left-part #skills .skills-body .photo span::after {
+  content: "80%";
+  height: 18px;
+  width: 80%;
+  background-color: #369688;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50px;
+}
+#page-left-part #skills .skills-body .illustrator span::after {
+  content: "75%";
+  height: 18px;
+  width: 75%;
+  background-color: #369688;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50px;
+}
+#page-left-part #skills .skills-body .media span::after {
+  content: "50%";
+  height: 18px;
+  width: 50%;
+  background-color: #369688;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50px;
+}
+
+/*******************************************/
+#page-left-part #language {
+  padding: 10px 30px;
+}
+
+#page-left-part #language .language-body li span {
+  height: 30px;
+}
+
+#page-left-part #language .language-body .english span::after {
+  content: "";
+  height: 30px;
+  width: 100%;
+  background-color: #369688;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50px;
+}
+
+#page-left-part #language .language-body .spanish span::after {
+  content: "";
+  height: 30px;
+  width: 50%;
+  background-color: #369688;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50px;
+}
+
+#page-left-part #language .language-body .german span::after {
+    content: "";
+    height: 30px;
+    width: 20%;
+    background-color: #369688;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    border-radius: 50px;
+  }
+
+
+
+ /********************************************************************************/
+
+#page-right-part {
+  width: 64%;
+  
+}
+#page-right-part #work{
+    padding: 30px;
+    box-shadow: -4px 5px 11px 0px #bebebe;
+    background-color: white;
+
+}
+
+#page-right-part #work .work-body h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: grey;
+}
+#page-right-part #work .work-body h2 i{
+    color: #369688;
+    margin-right: 10px;
+    
+}
