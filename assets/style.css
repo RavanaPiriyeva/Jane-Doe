@@ -8,10 +8,10 @@ body{
     background-color: rgb(243, 243, 243);
 }
 main {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
-  padding: 10px;
+  padding: 20px;
   justify-content: space-between;
 }
 #page-left-part {
@@ -55,7 +55,7 @@ main {
 /*------------------------------------------------------------------*/
 
 #page-left-part #skills {
-  padding: 30px;
+  padding:10px 30px;
 }
 #page-left-part #skills .skills-body {
 }
@@ -77,7 +77,7 @@ main {
 }
 #page-left-part #skills .skills-body li,
 #page-left-part #language .language-body li {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 #page-left-part #skills .skills-body li p,
 #page-left-part #language .language-body li p {
@@ -144,16 +144,16 @@ main {
 
 /*******************************************/
 #page-left-part #language {
-  padding: 10px 30px;
+  padding: 0 30px;
 }
 
 #page-left-part #language .language-body li span {
-  height: 30px;
+  height: 25px;
 }
 
 #page-left-part #language .language-body .english span::after {
   content: "";
-  height: 30px;
+  height: 25px;
   width: 100%;
   background-color: #369688;
   left: 0;
@@ -165,7 +165,7 @@ main {
 
 #page-left-part #language .language-body .spanish span::after {
   content: "";
-  height: 30px;
+  height: 25px;
   width: 50%;
   background-color: #369688;
   left: 0;
@@ -177,7 +177,7 @@ main {
 
 #page-left-part #language .language-body .german span::after {
     content: "";
-    height: 30px;
+    height: 25px;
     width: 20%;
     background-color: #369688;
     left: 0;
@@ -202,17 +202,77 @@ main {
 
 }
 
-#page-right-part #work .work-body h2{
+
+#page-right-part #work .work-body h2,
+#page-right-part #education .education-body h2
+{
     font-size: 30px;
     font-weight: 400;
     color: grey;
 }
-#page-right-part #work .work-body h2 i{
+#page-right-part #work .work-body h2 i ,
+#page-right-part #education .education-body h2 i{
     color: #369688;
     margin-right: 10px;
+    font-size: 35px;
     
 }
 
-#page-right-part #work .work-body-item{
-    padding: 30px 0;
+#page-right-part #work .work-body-item,
+#page-right-part #education .education-body-item{
+    padding: 30px 10px;
+    border-bottom: 1px solid #bebebe;
+}
+#page-right-part #work .work-body-item:last-child ,
+#page-right-part #education .education-body-item:last-child{
+  border: none;
+}
+#page-right-part #work .work-body-item h4,
+#page-right-part #education .education-body-item h4{
+  color: grey;
+  font-size: 18px;
+}
+#page-right-part #work .work-body-item .work-date,
+#page-right-part #education .education-body-item .education-date{
+  padding: 20px 0;
+  color: #369688;
+}
+#page-right-part #work .work-body-item .work-date i,
+#page-right-part #education .education-body-item .education-date i{
+  padding-right: 15px;
+}
+#page-right-part #work .work-body-item .work-date span{
+  background-color: #369688;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+#page-right-part #work .work-body-item .work-desc ,
+#page-right-part #education .education-body-item .education-desc{
+  font-size: 15px;
+  
+}
+
+/*-----------------------------------------------------------*/
+
+#page-right-part #education {
+  margin-top: 10px;
+  padding: 30px;
+  box-shadow: -4px 5px 11px 0px #bebebe;
+  background-color: white;
+}
+
+/*---------------------------------------------------------*/
+#footer .footer-body{
+  background-color:#369688;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#footer .footer-body a{
+  color: white;
+  padding: 0 5px  ;
+}
+#footer .footer-body p{
+  padding: 15px  0;
 }
